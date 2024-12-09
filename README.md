@@ -16,7 +16,7 @@ Este repositório contém um projeto de Machine Learning para prever se um doado
    ```bash
    git clone https://github.com/SadPineapple/blood-donation-prediction.git
 
-### Previsão de Doações de Sangue com Machine Learning
+# Previsão de Doações de Sangue com Machine Learning
 
 ## Introdução
 A doação de sangue é essencial para salvar vidas, mas os bancos de sangue enfrentam dificuldades em prever o comportamento de doadores. Este projeto utiliza machine learning para criar um modelo preditivo, ajudando a identificar padrões que indicam a probabilidade de um indivíduo doar sangue novamente.
@@ -30,7 +30,7 @@ Monetary: Volume total de sangue doado (em centilitros).
 Time: Tempo desde a primeira doação (meses).
 Target: Variável-alvo (1 para doadores, 0 para não doadores).
 
-### Etapas de Desenvolvimento:
+# Etapas de Desenvolvimento:
 
 ## Pré-processamento dos Dados:
 
@@ -45,12 +45,12 @@ Métrica principal: Acurácia.
 
 Métricas utilizadas: Acurácia, precisão, recall e matriz de confusão.
 
-# Resultados
+## Resultados
 
-## Desempenho do Modelo:
+### Desempenho do Modelo:
 Acurácia Geral: 74,2%.
 
-# Métricas detalhadas:
+### Métricas detalhadas:
 ### Classe "0" (Não doou):
 Precisão: 78%.
 Recall: 91%.
@@ -61,14 +61,14 @@ Precisão: 53%.
 Recall: 28%.
 F1-Score: 37%.
 
-## Matriz de Confusão:
+### Matriz de Confusão:
 Classe Real	Previsto: Não	Previsto: Sim
 Não	150	15
 Sim	43	17
 
-### Análise:
+## Análise:
 O modelo tem um bom desempenho em identificar não doadores (classe majoritária).
 Contudo, apresenta dificuldade em prever corretamente os doadores (classe minoritária), devido ao desbalanceamento dos dados.
 
-### Conclusão
+## Conclusão
 O modelo Random Forest apresentou desempenho satisfatório na identificação de não doadores, mas a baixa precisão e recall para doadores indica a necessidade de balanceamento de classes ou ajuste de hiperparâmetros. Esse projeto demonstra como o aprendizado de máquina pode ser aplicado para resolver desafios em bancos de sangue, mas melhorias futuras são essenciais para obter resultados mais equilibrados.
