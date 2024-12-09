@@ -30,9 +30,9 @@ Monetary: Volume total de sangue doado (em centilitros).
 Time: Tempo desde a primeira doação (meses).
 Target: Variável-alvo (1 para doadores, 0 para não doadores).
 
-###Etapas de Desenvolvimento:
+### Etapas de Desenvolvimento:
 
-##Pré-processamento dos Dados:
+## Pré-processamento dos Dados:
 
 Normalização das variáveis explicativas para uniformizar as escalas.
 Divisão dos dados em 70% para treino e 30% para teste.
@@ -41,34 +41,34 @@ Treinamento do Modelo:
 Algoritmo: Random Forest Classifier com parâmetros padrão.
 Métrica principal: Acurácia.
 
-##Avaliação:
+## Avaliação:
 
 Métricas utilizadas: Acurácia, precisão, recall e matriz de confusão.
 
-###Resultados
+### Resultados
 
-##Desempenho do Modelo:
+## Desempenho do Modelo:
 Acurácia Geral: 74,2%.
 
-##Métricas detalhadas:
-#Classe "0" (Não doou):
+## Métricas detalhadas:
+# Classe "0" (Não doou):
 Precisão: 78%.
 Recall: 91%.
 F1-Score: 84%.
 
-#Classe "1" (Doou):
+# Classe "1" (Doou):
 Precisão: 53%.
 Recall: 28%.
 F1-Score: 37%.
 
-##Matriz de Confusão:
+## Matriz de Confusão:
 Classe Real	Previsto: Não	Previsto: Sim
 Não	150	15
 Sim	43	17
 
-###Análise:
+### Análise:
 O modelo tem um bom desempenho em identificar não doadores (classe majoritária).
 Contudo, apresenta dificuldade em prever corretamente os doadores (classe minoritária), devido ao desbalanceamento dos dados.
 
-###Conclusão
+### Conclusão
 O modelo Random Forest apresentou desempenho satisfatório na identificação de não doadores, mas a baixa precisão e recall para doadores indica a necessidade de balanceamento de classes ou ajuste de hiperparâmetros. Esse projeto demonstra como o aprendizado de máquina pode ser aplicado para resolver desafios em bancos de sangue, mas melhorias futuras são essenciais para obter resultados mais equilibrados.
