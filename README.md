@@ -45,18 +45,18 @@ Métrica principal: Acurácia.
 
 Métricas utilizadas: Acurácia, precisão, recall e matriz de confusão.
 
-### Resultados
+# Resultados
 
 ## Desempenho do Modelo:
 Acurácia Geral: 74,2%.
 
-## Métricas detalhadas:
-# Classe "0" (Não doou):
+# Métricas detalhadas:
+### Classe "0" (Não doou):
 Precisão: 78%.
 Recall: 91%.
 F1-Score: 84%.
 
-# Classe "1" (Doou):
+### Classe "1" (Doou):
 Precisão: 53%.
 Recall: 28%.
 F1-Score: 37%.
