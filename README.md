@@ -5,7 +5,7 @@ Este repositório contém um projeto de Machine Learning para prever se um doado
 ## Estrutura do Repositório
 
 - `data/`: Base de dados utilizada no projeto.
-- `notebooks/`: Jupyter Notebook com a análise e implementação do modelo.
+- `notebooks/`:  Notebook com a análise e implementação do modelo.
 - `src/`: Scripts para treinar e avaliar o modelo.
 - `results/`: Resultados gerados pelo modelo (métricas e visualizações).
 - `requirements.txt`: Lista de dependências do projeto.
