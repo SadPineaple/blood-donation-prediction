@@ -1,0 +1,82 @@
+# Resumo dos Dados
+Recency (months):
+    count: 748
+    mean: 9.51
+    std: 8.10
+    min: 0
+    25%: 2.75
+    50%: 7
+    75%: 14
+    max: 74
+
+Frequency (times):
+    count: 748
+    mean: 5.51
+    std: 5.84
+    min: 1
+    25%: 2
+    50%: 4
+    75%: 7
+    max: 50
+
+Monetary (c.c. blood):
+    count: 748
+    mean: 1378.68
+    std: 1459.83
+    min: 250
+    25%: 500
+    50%: 1000
+    75%: 1750
+    max: 12500
+
+Time (months):
+    count: 748
+    mean: 34.28
+    std: 24.38
+    min: 2
+    25%: 16
+    50%: 28
+    75%: 50
+    max: 98
+
+Target (Doou em março de 2007):
+    count: 748
+    mean: 0.238
+    std: 0.426
+    min: 0
+    25%: 0
+    50%: 0
+    75%: 0
+    max: 1
+
+# Desempenho do Modelo
+Acurácia: 74.22%
+
+# Relatório de Classificação:
+Class 0 (Não Doou):
+    - Precisão: 0.78
+    - Recall: 0.91
+    - F1-Score: 0.84
+    - Support: 165
+
+Class 1 (Doou):
+    - Precisão: 0.53
+    - Recall: 0.28
+    - F1-Score: 0.37
+    - Support: 60
+
+Acurácia Geral: 0.74
+
+Média ponderada:
+    - Precisão: 0.71
+    - Recall: 0.74
+    - F1-Score: 0.71
+
+Média macro:
+    - Precisão: 0.65
+    - Recall: 0.60
+    - F1-Score: 0.60
+
+# Modelo Treinado:
+- Modelo: Random Forest Classifier
+- Arquivo: blood_donation_model.pkl
