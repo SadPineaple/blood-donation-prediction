@@ -17,6 +17,7 @@ Este repositório contém um projeto de Machine Learning para prever se um doado
    git clone https://github.com/SadPineapple/blood-donation-prediction.git
 
 # Previsão de Doações de Sangue com Machine Learning
+## Dificuldade: Iniciante
 
 ## Introdução
 A doação de sangue é essencial para salvar vidas, mas os bancos de sangue enfrentam dificuldades em prever o comportamento de doadores. Este projeto utiliza machine learning para criar um modelo preditivo, ajudando a identificar padrões que indicam a probabilidade de um indivíduo doar sangue novamente.
@@ -69,6 +70,9 @@ Sim	43	17
 ## Análise:
 O modelo tem um bom desempenho em identificar não doadores (classe majoritária).
 Contudo, apresenta dificuldade em prever corretamente os doadores (classe minoritária), devido ao desbalanceamento dos dados.
+
+## Dificuldades encontradas
+Durante o desenvolvimento do projeto de previsão de doações de sangue, enfrentamos desafios relacionados ao desbalanceamento da variável-alvo, o que afetou a capacidade do modelo de identificar corretamente os doadores. Apesar de utilizar técnicas como SMOTE para balanceamento e o ajuste de hiperparâmetros, o modelo ainda apresentou baixa precisão e recall na classe minoritária. Além disso, o modelo de Random Forest demonstrou tendência ao overfitting, o que exigiu o uso de validação cruzada para melhorar sua generalização. A interpretação dos resultados também foi um desafio, mas foi superada com o uso de visualizações claras, como a matriz de confusão, para facilitar a comunicação dos resultados.
 
 ## Conclusão
 O modelo Random Forest apresentou desempenho satisfatório na identificação de não doadores, mas a baixa precisão e recall para doadores indica a necessidade de balanceamento de classes ou ajuste de hiperparâmetros. Esse projeto demonstra como o aprendizado de máquina pode ser aplicado para resolver desafios em bancos de sangue, mas melhorias futuras são essenciais para obter resultados mais equilibrados.
